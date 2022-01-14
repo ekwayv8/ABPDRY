@@ -1,108 +1,87 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	 
-    <!--Font awesome -->
-    <script src="https://kit.fontawesome.com/77ac87f3b1.js" crossorigin="anonymous"></script
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
 
-    <title>abpdry_</title>
+<body>
 
-	<nav class="navbar navbar-expand-lg navbar-success bg-light">
-		<div class="container-fluid">
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">Accueil</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Coordonnées</a>
-			  </li>
-			  <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-				  Menu
-				</a>
-				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <li><a class="dropdown-item" href="#">Si tu as cliqué là...</a></li>
-				  <li><a class="dropdown-item" href="#">... c'est que t'es le meilleur ahah</a></li>
-				</ul>
-			  </li>
-			  <li class="nav-item">
-			  </li>
-			</ul>
-			<form class="d-flex">
-			  <input class="form-control me-2" type="search" placeholder="Tu es perdu ?" aria-label="Search">
-			  <button class="btn btn-outline-primary" type="submit">Search</button>
-			</form>
-		  </div>
-		</div>
-	  </nav>
-    <div class="position-relative overflow-hidden p-2 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-5 p-lg-1 mx-auto my-1">
-			<img src="/Logo_abpdry_blanc_fond_bleu.png	" alt="logo">
-			<h1 class="display-4 fw-normal" style="color: blue;"> <strong>abpdry</strong> </h1>
-          <p class="lead fw-normal">L'art de réaliser vos sites web</p>
-          <p> <strong>Seul on va plus vite, ensemble on va plus loin.</strong> </p>
-          <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-		  
+    <div class="container mt-5 light bg-light">
+        <h1>Contactez-nous</h1>
+        <form action="https://formsubmit.co/abpdry.inc@gmail.com" method="POST" class="row g-3">
+            <div class="col-md-6">
+                <label for="firstname" class="form-label">Nom de famille</label>
+                <input type="text" class="form-control" id="firstname" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastname" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="lastname" required>
+            </div>
+            <div class="col-md-8">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="col-md-4">
+                <label for="phonenumber" class="form-label">Téléphone</label>
+                <input type="text" class="form-control" id="phonenumber" placeholder="Optionnel">
+            </div>
+            <div class="col-md-12">
+                <label for="comments" class="form-label"> Commentaires/Questions</label>
+                <textarea class="form-control" id="comment" rows="3" required></textarea>
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-outline-primary">Envoyer</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Seul on code plus vite , ensemble on code plus loin"</p>
+                        <footer class="blockquote-footer">ABPDRY team </footer>
+                      </blockquote>
+                      <i style="padding-left: 50px;" class="fab fa-instagram fa-2x"></i>
+                      <i style="padding-left: 50px;" class="fab fa-github fa-2x"></i>
+                      <i style="padding-left: 50px;" class="fab fa-linkedin fa-2x"></i>
+                    
+                      
+                </div>
+                <div class="col-2">
+                    <h6>Nos Services</h6>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li><a href="index.html" style="text-decoration: none;color: black;">Web design</a> </li> 
+                         <li><a href="index.html"style="text-decoration: none;color: black;">Development</a> </li>
+                         <li><a href="index.html"style="text-decoration: none;color: black;">Une autre idée ?</a> </li>
+                </div>
+                <div class="col-2">
+                    <h6>A propos de nous</h6>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li><a href="index.html"style="text-decoration: none;color: black;">Company</a> </li> 
+                       <li><a href="index.html"style="text-decoration: none;color: black;">Team</a> </li>
+                       <li><a href="index.html"style="text-decoration: none;color: black;">Legacy</a> </li>
+                       
+                    
+                </div>
+                <div class="col-3">
+                    <h6>Newsletter</h6>
+                    <label for="newsletter" class="form-label"></label>
+                    <input type="text" class="form-control" id="phonenumber"
+                        placeholder="S'inscrire a notre newsletter">
+                        <button type="submit" class="btn btn-outline-primary" >Envoyer</button>
+                </div>
+            </div>
+
         </div>
-		
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-      </div>
-    
-  </head>
-  <body>
-<!-- 3 raisons de nous choisir -->
-        <div class="text-center style="color:#202F50">
-      <h2 class="display-6 fw-bold m-5">Pourquoi nous confier votre site</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100 border-0">
-          <i class="fas fa-laptop fa-4x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Votre site internet sur-mesure</h5>
-            <p class="card-text">Présentez votre activité, valorisez vos services et produits grâce à un site conçu pour vous et vos besoins.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 border-0">
-          <i class="fas fa-hands-helping fa-4x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Un accompagnement dédié</h5>
-            <p class="card-text">A l'écoute de vos besoins, nous vous conseillons et sommes présents tout au long du projet.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 border-0">
-          <i class="fas fa-users fa-4x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Des experts à vos côtés</h5>
-            <p class="card-text">Pour créer un site internet à votre image, nous mobilisons une équipe de webdesigners et développeurs aguerris.</p>
-          </div>
-        </div>
-      </div>
-    
+    </footer>
+</body>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
 </html>
